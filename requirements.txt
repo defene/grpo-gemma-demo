@@ -1,0 +1,14 @@
+wandb==0.22.0
+kagglehub
+ipywidgets
+tensorflow
+tensorflow_datasets
+tensorboardX
+transformers
+grain
+google-tunix[prod]==0.1.3
+flax==0.12.0
+datasets
+
+
+
