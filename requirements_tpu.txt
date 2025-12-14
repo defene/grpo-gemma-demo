@@ -1,0 +1,32 @@
+# Requirements for TPU training
+# Install with: pip install -r requirements_tpu.txt
+
+# JAX for TPU (install separately with -f flag)
+# pip install -U "jax[tpu]" -f https://storage.googleapis.com/jax-releases/libtpu_releases.html
+
+# Core ML libraries
+flax>=0.8.0
+optax>=0.1.7
+orbax-checkpoint>=0.5.0
+
+# Data processing
+grain-nightly
+tensorflow-datasets>=4.9.0
+
+# Model libraries
+kagglehub>=0.2.0
+qwix
+tunix
+
+# Utilities
+humanize>=4.0.0
+tqdm>=4.65.0
+
+# Jupyter
+jupyter>=1.0.0
+jupyterlab>=4.0.0
+ipywidgets>=8.0.0
+
+# Experiment tracking (optional)
+wandb>=0.15.0
+
